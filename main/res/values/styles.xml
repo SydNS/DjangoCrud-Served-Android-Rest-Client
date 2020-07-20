@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="makingPoststyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cardWhite</item>
+        <item name="boxStrokeColor">@color/cardWhite</item>
+        <item name="boxBackgroundColor">@color/cardText</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="android:gravity">top|start</item>
+        <item name="android:layout_width">340dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:inputType">text</item>
+        <item name="hintTextColor">@color/cardWhite</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+
+</resources>
